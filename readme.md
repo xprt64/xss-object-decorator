@@ -6,7 +6,7 @@ Use this library if you `echo` the results of a call to a method on an object
 
 ## The code before
 
-```
+```php
     <?php
     /** @var SomeClass $someObject */
     echo $someObject->someMethod();
@@ -14,7 +14,7 @@ Use this library if you `echo` the results of a call to a method on an object
 
 ## The code after
 
-```
+```php
     <?php
     use \Gica\Xss\ObjectDecorator;
     
@@ -27,7 +27,7 @@ Use this library if you `echo` the results of a call to a method on an object
 
 If you want type-hinting in your IDE, you could add a @var declaration:
 
-```
+```php
     <?php
     use \Gica\Xss\ObjectDecorator;
     
